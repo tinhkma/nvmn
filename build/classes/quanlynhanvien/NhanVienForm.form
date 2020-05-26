@@ -39,40 +39,54 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jt_noti" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jb_xoa" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="jb_ok" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="cb_nam" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="cb_nu" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jt_diaChi" max="32767" attributes="0"/>
-                                  <Component id="jt_hoTen" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jt_thamNien" max="32767" attributes="0"/>
-                                  <Component id="jt_luongCoBan" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="cb_phongBan" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jt_heSoLuong" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cb_nam" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="cb_nu" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                              <Component id="jScrollPane1" min="-2" pref="587" max="-2" attributes="0"/>
+                              <Component id="jt_diaChi" max="32767" attributes="0"/>
+                              <Component id="jt_hoTen" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="89" pref="89" max="-2" attributes="0"/>
+                                  <Component id="jt_noti" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jt_ngaySinh" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jb_xoa" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jb_ok" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jt_thamNien" max="32767" attributes="0"/>
+                                      <Component id="jt_luongCoBan" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="cb_phongBan" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jt_heSoLuong" alignment="0" pref="119" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
+                      <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="587" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="87" max="32767" attributes="0"/>
@@ -86,6 +100,10 @@
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="292" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jt_hoTen" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -102,10 +120,15 @@
                           <Component id="cb_nam" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="cb_nu" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace pref="6" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jt_ngaySinh" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="cb_phongBan" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" pref="12" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -127,12 +150,11 @@
                           <Component id="jb_xoa" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jb_ok" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jt_noti" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="22" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane1" alignment="1" min="-2" pref="292" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jt_noti" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="36" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -269,6 +291,13 @@
     <Component class="javax.swing.JLabel" name="jt_noti">
       <Properties>
         <Property name="text" type="java.lang.String" value="Noti"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jt_ngaySinh">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ngay Sinh:"/>
       </Properties>
     </Component>
   </SubComponents>
