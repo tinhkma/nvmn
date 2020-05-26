@@ -265,7 +265,8 @@ public class NhanVienForm extends javax.swing.JFrame {
             double luongCoBan = Double.parseDouble(jt_luongCoBan.getText().toString());
             luongThucNhan = hesoLuong*luongCoBan*(1+thamNien/100);
         } catch (NumberFormatException exception) {
-            JOptionPane.showMessageDialog(this, "Phai la so");
+            jt_noti.setVisible(true);
+            jt_noti.setText(exception.getMessage().toString());
         }
     }//GEN-LAST:event_jb_okActionPerformed
 
@@ -282,7 +283,7 @@ public class NhanVienForm extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(() -> {
             new NhanVienForm().setVisible(true);
         });
-        System.out.println("hhihi");
+        System.out.println();
        
     }
 
