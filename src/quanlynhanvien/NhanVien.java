@@ -11,22 +11,22 @@ package quanlynhanvien;
  */
 public class NhanVien extends Person{
     private String phongBan;
-    private Double heSoLuong;
-    private Double thamNien;
-    private Double luongCoBan;
+    private double heSoLuong;
+    private double thamNien;
+    private double luongCoBan;
 
     public NhanVien() {
     }
 
-    public NhanVien(String phongBan, Double heSoLuong, Double thamNien, Double luongCoBan) {
+    public NhanVien(String phongBan, double heSoLuong, double thamNien, double luongCoBan) {
         this.phongBan = phongBan;
         this.heSoLuong = heSoLuong;
         this.thamNien = thamNien;
         this.luongCoBan = luongCoBan;
     }
 
-    public NhanVien(String hoTen, String diaChi, Boolean gioiTinh, String ngaySinh, String phongBan, Double heSoLuong, Double thamNien, Double luongCoBan) {
-        super(hoTen, diaChi, gioiTinh, ngaySinh);
+    public NhanVien(String hoTen, String diaChi, Boolean goiTinh, String ngaySinh, String phongBan, double heSoLuong, double thamNien, double luongCoBan) {
+        super(hoTen, diaChi, goiTinh, ngaySinh);
         this.phongBan = phongBan;
         this.heSoLuong = heSoLuong;
         this.thamNien = thamNien;
@@ -41,27 +41,27 @@ public class NhanVien extends Person{
         this.phongBan = phongBan;
     }
 
-    public Double getHeSoLuong() {
+    public double getHeSoLuong() {
         return heSoLuong;
     }
 
-    public void setHeSoLuong(Double heSoLuong) {
+    public void setHeSoLuong(double heSoLuong) {
         this.heSoLuong = heSoLuong;
     }
 
-    public Double getThamNien() {
+    public double getThamNien() {
         return thamNien;
     }
 
-    public void setThamNien(Double thamNien) {
+    public void setThamNien(double thamNien) {
         this.thamNien = thamNien;
     }
 
-    public Double getLuongCoBan() {
+    public double getLuongCoBan() {
         return luongCoBan;
     }
 
-    public void setLuongCoBan(Double luongCoBan) {
+    public void setLuongCoBan(double luongCoBan) {
         this.luongCoBan = luongCoBan;
     }
 
