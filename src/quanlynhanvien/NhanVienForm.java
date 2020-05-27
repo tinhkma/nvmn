@@ -98,6 +98,20 @@ public class NhanVienForm extends javax.swing.JFrame {
         }
     }
 
+    private void deleteText() {
+        jt_noti.setVisible(false);
+        jt_luongCoBan.setText("");
+        jt_thamNien.setText("");
+        jt_diaChi.setText("");
+        jt_heSoLuong.setText("");
+        jt_hoTen.setText("");
+        jt_ngaySinh.setText("");
+        jt_luongCoBan.setText("");
+        cb_nu.setSelected(false);
+        cb_nam.setSelected(false);
+        cb_phongBan.setSelectedIndex(0);
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -327,7 +341,7 @@ public class NhanVienForm extends javax.swing.JFrame {
     }//GEN-LAST:event_jt_heSoLuongActionPerformed
 
     private void jb_xoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jb_xoaActionPerformed
-        // TODO add your handling code here:
+        deleteText();
     }//GEN-LAST:event_jb_xoaActionPerformed
 
     private void cb_namActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb_namActionPerformed
