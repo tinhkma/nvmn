@@ -12,13 +12,13 @@ package quanlynhanvien;
 public class Person {
     private String hoTen;
     private String diaChi;
-    private Boolean goiTinh;
+    private boolean goiTinh;
     private String ngaySinh;
 
     public Person() {
     }
 
-    public Person(String hoTen, String diaChi, Boolean goiTinh, String ngaySinh) {
+    public Person(String hoTen, String diaChi, boolean goiTinh, String ngaySinh) {
         this.hoTen = hoTen;
         this.diaChi = diaChi;
         this.goiTinh = goiTinh;
@@ -41,11 +41,11 @@ public class Person {
         this.diaChi = diaChi;
     }
 
-    public Boolean getGoiTinh() {
+    public boolean getGoiTinh() {
         return goiTinh;
     }
 
-    public void setGoiTinh(Boolean goiTinh) {
+    public void setGoiTinh(boolean goiTinh) {
         this.goiTinh = goiTinh;
     }
 
